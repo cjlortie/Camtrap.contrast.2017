@@ -29,6 +29,7 @@ Data were collected in dataframes from the camtraps at each desert site. Foundat
 ```{r, data, warning=FALSE, message=FALSE}
 library(tidyverse)
 
+
 ```
 
 
