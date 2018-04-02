@@ -1,0 +1,45 @@
+---
+title: ""
+output:
+  html_document:
+    theme: yeti
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+<br>  
+
+##Camera trap contrasts
+<br>  
+
+![](./MNP.jpg)  
+<br>
+
+###Introduction  
+Rapid, simple tools that sample a population are critical to effective ecological research particularly in dryland ecosystems where populations are relatively dispersed and at low densities. Here, we explored the efficacy of camera traps to examine plant-animal interactions in two distinct desert ecosystems. The Mojave National Preserve and The Carrizo National Monument were sampled in the spring 2017 season for patterns animal activity. The fundamental ecological hypothesis examined was that foundation plant species can function as benefactors to other taxa such as vertebrate animals. 
+
+###Methods & meta-data
+Camera traps were deployed to explore the ecological function of foundation plant species such as shrubs or cacti on desert animals. In the Carrizo, *Ephedra californica* was used as the foundation species, and in the Mojave, Larrea tridentata and Cylindropuntia acanthocarpa were used to structure sampling. An 'open' microsite control was used in the Carrizo to provide an estimate of the relative importance of associational patterns with shrubs. 
+
+###Data  
+Data were collected in dataframes from the camtraps at each desert site. Foundation plant data were also collected in addition to basic eccological descriptions of the local environmental contexts.
+
+```{r, data, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+```
+
+
+###Viz
+```{r, viz, warning=FALSE, message=FALSE}
+
+```
+
+###Models
+```{r, models, warning=FALSE, message=FALSE}
+
+```
+
+###Interpretation
