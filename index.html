@@ -237,13 +237,26 @@ div.tocify {
 <h3>Data</h3>
 <p>Data were collected in dataframes from the camtraps at each desert site. Foundation plant data were also collected in addition to basic eccological descriptions of the local environmental contexts.</p>
 <pre class="r"><code>library(tidyverse)
+#sites
 cnm &lt;- read_csv(&quot;data/2017 carrizo camtrap-veg.csv&quot;)
 cnm$camtrap.label &lt;- as.character(cnm$camtrap.label)
 mnp &lt;- read_csv(&quot;data/2017 MNP camtrap-veg.csv&quot;)
 
 sites &lt;- bind_rows(cnm, mnp)
 sites &lt;- sites %&gt;%
-  mutate(volume = ((x + y)/2)^3*3.14*(1/3))</code></pre>
+  mutate(volume = ((x + y)/2)^3*3.14*(1/3))
+
+#animals
+cnm.cams &lt;- read_csv(&quot;data/2017 carrizo camtraps.csv&quot;)
+mnp.cams &lt;- read_csv(&quot;data/2017 MNP camtraps.csv&quot;)
+
+cnm.cams$actual.time &lt;- as.numeric(cnm.cams$actual.time)
+
+cnm.cams$temp &lt;- as.numeric(cnm.cams$temp)
+
+
+mnp.cams$actual.time &lt;- as.numeric(mnp.cams$actual.time)
+cams &lt;- bind_rows(cnm.cams, mnp.cams)</code></pre>
 </div>
 <div id="viz" class="section level3">
 <h3>Viz</h3>
