@@ -163,7 +163,40 @@ ggplot(full.data, aes(z, rate, color = species)) +
 
 ###Models
 ```{r, models, warning=FALSE, message=FALSE}
+#size difference using volume
+m <- glm(volume~species, data = sites)
+summary(m)
+anova(m, test = "Chisq") #get p-values for model
+shapiro.test(m$residuals) #explore residuals
 
+library(lsmeans)
+lsmeans(m, pairwise~species, adjust = "tukey")
+#library(emmeans)
+#contrast(m)
+
+#differences in capture rates
+m <- glm(rate~microsite, data = data, family = "quasipoisson")
+summary(m)
+anova(m, test = "Chisq") #get p-values for model
+shapiro.test(m$residuals) #explore residuals
+
+lsmeans(m, pairwise~microsite, adjust = "tukey")
+
+#influence of volume on capture rates
+#keeping it simple
+m <- glm(rate~volume*species, data = full.data)
+summary(m)
+anova(m, test = "Chisq") #get p-values for model
+shapiro.test(m$residuals) #explore residuals
+
+full.data %>% split(.$species) %>%
+  map(~ lm(volume~rate, data =.)) %>%
+  map(summary)
 ```
 
-###Interpretation
+###Interpretation  
+1. There were significant differences between the three foundation plant species tested.  
+2. Capture rates varied significantly from 0 to 0.43 depending on the species and specifics.   
+3. A single camera can capture up to 255 instances of animals over the course of three weeks at a desert site.  
+4. Buckhorn cholla was the best magnet for animal taxa capturing more instances than larrea and ephedra. However, open sites in the Carrizo also outcompeted the other two species and were not different from buckhorn suggesting that foundation plant species are used differently at different sites.  
+5. Buckhorn size also positively predicted the incidence of animal capture and the trends for the other two foundation plant species were not significant.
