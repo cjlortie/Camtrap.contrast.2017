@@ -103,12 +103,61 @@ ggplot(data, aes(microsite, captures)) +
 
 ggplot(data, aes(microsite, rate)) +
   geom_boxplot() +
-  labs(y = "camera capture rate")
+  labs(y = "capture rate")
 
+#captures by foundation species
 ggplot(full.data, aes(volume, captures, color = species)) +
          geom_point() +
-  geom_smooth(method = lm) +
-  labs(color = "")
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "volume (m2)", y = "total captures")
+
+require(mgcv)
+ggplot(full.data, aes(volume, captures, color = species)) +
+         stat_smooth(method = "gam") +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "volume (m2)", y = "total captures")
+
+ggplot(full.data, aes(volume, rate, color = species)) +
+         geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "volume (m2)", y = "capture rate")
+
+require(mgcv)
+ggplot(full.data, aes(volume, rate, color = species)) +
+         stat_smooth(method = "gam") +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "volume (m2)", y = "capture rate")
+
+#check height
+ggplot(full.data, aes(z, captures, color = species)) +
+         geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "height (m)", y = "total captures")
+
+require(mgcv)
+ggplot(full.data, aes(z, captures, color = species)) +
+         stat_smooth(method = "gam") +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "height (m)", y = "total captures")
+
+ggplot(full.data, aes(z, rate, color = species)) +
+         geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "height (m)", y = "capture rate")
+
+require(mgcv)
+ggplot(full.data, aes(z, rate, color = species)) +
+         stat_smooth(method = "gam") +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "height (m)", y = "capture rate")
 
 ```
 
