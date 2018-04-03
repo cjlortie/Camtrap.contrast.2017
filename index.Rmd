@@ -55,8 +55,16 @@ skim(cams)
 #summary data
 data <- cams %>%
   group_by(site, microsite, week, rep) %>%
-  summarise(captures = sum(animal.capture), n = n()) %>% mutate(rate = captures/n)
+  summarise(captures = sum(animal.capture), n = n(), animal.richness = n_distinct(animal)-1) %>% mutate(rate = captures/n) #-1 for richness bc of none as level
 data$rep <- as.character(data$rep)
+
+#animal diversity
+diversity <- cams %>%
+  group_by(site, microsite, week, rep, animal) %>%
+  summarise(captures = sum(animal.capture), n = n()) %>% mutate(rate = captures/n)
+
+unique(diversity$animal)
+  
 
 #add size data
 simpler.data <- data %>% rename(species = microsite) %>% filter(species != "open")
