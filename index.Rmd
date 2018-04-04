@@ -217,7 +217,7 @@ ggplot(tidy.rii, aes(species, values)) +
   ylim(-1,1) +
   geom_hline(yintercept=0, linetype="dashed", color = "red") +
   facet_wrap(~measure) +
-  labs(y = "Rii")
+  labs(y = "Rii plant community")
 
 ```
 
@@ -252,6 +252,22 @@ shapiro.test(m$residuals) #explore residuals
 full.data %>% split(.$species) %>%
   map(~ lm(volume~rate, data =.)) %>%
   map(summary)
+
+#animal richness
+m <- glm(animal.richness~microsite, data = data, family = "quasipoisson")
+summary(m)
+anova(m, test = "Chisq") #get p-values for model
+shapiro.test(m$residuals) #explore residuals
+
+lsmeans(m, pairwise~microsite, adjust = "tukey")
+
+#plant community
+m <- glm(values~measure*species, data = tidy.rii)
+summary(m)
+anova(m, test = "Chisq") #get p-values for model
+shapiro.test(m$residuals) #explore residuals
+
+lsmeans(m, pairwise~measure*species, adjust = "tukey")
 ```
 
 ###Interpretation  
