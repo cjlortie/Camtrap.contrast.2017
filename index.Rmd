@@ -94,6 +94,9 @@ x <- community %>%
 
 community.rii <- rii(x, 1:2, 4:6)
 
+tidy.rii <- community.rii %>%
+  gather(measure, values, 3:5)
+
 ```
 
 
@@ -135,6 +138,10 @@ ggplot(data, aes(microsite, rate)) +
   geom_boxplot() +
   labs(y = "capture rate")
 
+ggplot(data, aes(microsite, animal.richness)) +
+  geom_boxplot() +
+  labs(y = "animal richness")
+
 #captures by foundation species
 ggplot(full.data, aes(volume, captures, color = species)) +
          geom_point() +
@@ -149,6 +156,7 @@ ggplot(full.data, aes(volume, captures, color = species)) +
   facet_wrap(~species, scales = "free") +
   labs(color = "", x = "volume (m2)", y = "total captures")
 
+#capture rates by foundation species
 ggplot(full.data, aes(volume, rate, color = species)) +
          geom_point() +
   geom_smooth(method = lm, se = FALSE) +
@@ -161,6 +169,20 @@ ggplot(full.data, aes(volume, rate, color = species)) +
   geom_smooth(method = lm, se = FALSE) +
   facet_wrap(~species, scales = "free") +
   labs(color = "", x = "volume (m2)", y = "capture rate")
+
+#capture animal richness by foundation species
+ggplot(full.data, aes(volume, animal.richness, color = species)) +
+         geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "volume (m2)", y = "animal richness")
+
+require(mgcv)
+ggplot(full.data, aes(volume, animal.richness, color = species)) +
+         stat_smooth(method = "gam") +
+  geom_smooth(method = lm, se = FALSE) +
+  facet_wrap(~species, scales = "free") +
+  labs(color = "", x = "volume (m2)", y = "animal richness")
 
 #check height
 ggplot(full.data, aes(z, captures, color = species)) +
@@ -188,6 +210,14 @@ ggplot(full.data, aes(z, rate, color = species)) +
   geom_smooth(method = lm, se = FALSE) +
   facet_wrap(~species, scales = "free") +
   labs(color = "", x = "height (m)", y = "capture rate")
+
+#foundation species relative effect on plant community
+ggplot(tidy.rii, aes(species, values)) +
+  geom_boxplot() +
+  ylim(-1,1) +
+  geom_hline(yintercept=0, linetype="dashed", color = "red") +
+  facet_wrap(~measure) +
+  labs(y = "Rii")
 
 ```
 
