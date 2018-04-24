@@ -231,6 +231,24 @@ ggplot(tidy.rii, aes(species, values)) +
   facet_wrap(~measure) +
   labs(y = "Rii plant community")
 
+#regional diversity contrast
+excludes <- c("none", "unknown", "mammal")
+plot.diversity <-  diversity %>% 
+  filter(!latin.binomial %in% excludes)
+
+ggplot(plot.diversity, aes(latin.binomial, captures, fill = site)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  scale_fill_brewer(palette = "Set1") +
+  labs(fill = "", x = "total captures")
+
+ggplot(plot.diversity, aes(latin.binomial, rate, fill = site)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  scale_fill_brewer(palette = "Set1") +
+  labs(fill = "", x = "capture rates")
+  
+
 ```
 
 ###Models
