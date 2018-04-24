@@ -30,7 +30,7 @@ Data were collected in dataframes from the camtraps at each desert site. Foundat
 library(tidyverse)
 library(skimr)
 #source("functions.R")
-#sites & foundation species
+#sites & foundation species####
 cnm <- read_csv("data/2017 carrizo camtrap-veg.csv")
 cnm$camtrap.label <- as.character(cnm$camtrap.label)
 mnp <- read_csv("data/2017 MNP camtrap-veg.csv")
@@ -40,31 +40,42 @@ sites <- sites %>%
   mutate(volume = ((x + y)/2)^3*3.14*(1/3))
 sites$rep <- as.character(sites$rep)
 
-#animals
+#animals####
 cnm.cams <- read_csv("data/2017 carrizo camtraps.csv")
 mnp.cams <- read_csv("data/2017 MNP camtraps.csv")
 
+#time and temp as numeric for simplificity
 cnm.cams$actual.time <- as.numeric(cnm.cams$actual.time)
 cnm.cams$temp <- as.numeric(cnm.cams$temp)
-
-
 mnp.cams$actual.time <- as.numeric(mnp.cams$actual.time)
+
+#merge two sites
 cams <- bind_rows(cnm.cams, mnp.cams)
+
+#restrict to vertebrates
+cams <- cams %>%
+  filter(animal != "butterfly")
 skim(cams)
   
-
 #summary data
 data <- cams %>%
   group_by(site, microsite, week, rep) %>%
-  summarise(captures = sum(animal.capture), n = n(), animal.richness = n_distinct(animal)-1) %>% mutate(rate = captures/n) #-1 for richness bc of none as level
+  summarise(captures = sum(animal.capture), n = n(), animal.richness = n_distinct(latin.binomial)-1) %>% mutate(rate = captures/n) #-1 for richness bc of none as level
 data$rep <- as.character(data$rep)
 
 #animal diversity
 diversity <- cams %>%
+  group_by(site, microsite, week, rep, latin.binomial) %>%
+  summarise(captures = sum(animal.capture), n = n()) %>% mutate(rate = captures/n)
+
+unique(diversity$latin.binomial)
+
+#kept simple classifications
+animals <- cams %>%
   group_by(site, microsite, week, rep, animal) %>%
   summarise(captures = sum(animal.capture), n = n()) %>% mutate(rate = captures/n)
 
-unique(diversity$animal)
+unique(animals$animal)
   
 
 #add size data
