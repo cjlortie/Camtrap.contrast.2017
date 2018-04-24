@@ -1,0 +1,411 @@
+site,microsite,week,rep,animal,captures,n,rate
+Carrizo,ephedra,1,2,kangaroo rat,35,35,1
+Carrizo,ephedra,1,2,none,0,3481,0
+Carrizo,ephedra,1,2,squirrel,9,9,1
+Carrizo,ephedra,1,4,kangaroo rat,132,132,1
+Carrizo,ephedra,1,4,none,0,6317,0
+Carrizo,ephedra,1,4,rabbit,5,5,1
+Carrizo,ephedra,1,4,squirrel,54,54,1
+Carrizo,ephedra,1,4,unknown,1,1,1
+Carrizo,ephedra,1,5,kangaroo rat,11,11,1
+Carrizo,ephedra,1,5,none,0,1104,0
+Carrizo,ephedra,1,5,rabbit,1,1,1
+Carrizo,ephedra,1,5,squirrel,2,2,1
+Carrizo,ephedra,1,6,kangaroo rat,3,3,1
+Carrizo,ephedra,1,6,none,0,4871,0
+Carrizo,ephedra,1,7,kangaroo rat,16,16,1
+Carrizo,ephedra,1,7,none,0,6168,0
+Carrizo,ephedra,1,7,squirrel,4,4,1
+Carrizo,ephedra,1,8,none,0,2131,0
+Carrizo,ephedra,1,9,kangaroo rat,33,33,1
+Carrizo,ephedra,1,9,lizard,2,2,1
+Carrizo,ephedra,1,9,none,0,2751,0
+Carrizo,ephedra,1,9,squirrel,12,12,1
+Carrizo,ephedra,1,9,unknown,1,1,1
+Carrizo,ephedra,1,10,kangaroo rat,5,5,1
+Carrizo,ephedra,1,10,lizard,116,116,1
+Carrizo,ephedra,1,10,none,0,5148,0
+Carrizo,ephedra,1,10,squirrel,4,4,1
+Carrizo,ephedra,2,1,lizard,9,9,1
+Carrizo,ephedra,2,1,none,0,2828,0
+Carrizo,ephedra,2,1,squirrel,8,8,1
+Carrizo,ephedra,2,1,unknown,2,2,1
+Carrizo,ephedra,2,2,kangaroo rat,4,4,1
+Carrizo,ephedra,2,2,none,0,3573,0
+Carrizo,ephedra,2,2,rabbit,3,3,1
+Carrizo,ephedra,2,2,squirrel,14,14,1
+Carrizo,ephedra,2,2,unknown,1,1,1
+Carrizo,ephedra,2,3,kangaroo rat,1,1,1
+Carrizo,ephedra,2,3,none,0,8871,0
+Carrizo,ephedra,2,3,rabbit,14,14,1
+Carrizo,ephedra,2,3,squirrel,5,5,1
+Carrizo,ephedra,2,4,kangaroo rat,1,1,1
+Carrizo,ephedra,2,4,none,0,1252,0
+Carrizo,ephedra,2,4,squirrel,3,3,1
+Carrizo,ephedra,2,5,kangaroo rat,2,2,1
+Carrizo,ephedra,2,5,none,0,960,0
+Carrizo,ephedra,2,5,squirrel,2,2,1
+Carrizo,ephedra,2,6,none,0,3041,0
+Carrizo,ephedra,2,7,kangaroo rat,1,1,1
+Carrizo,ephedra,2,7,lizard,1,1,1
+Carrizo,ephedra,2,7,none,0,4511,0
+Carrizo,ephedra,2,7,unknown,1,1,1
+Carrizo,ephedra,2,8,kangaroo rat,10,10,1
+Carrizo,ephedra,2,8,kit fox,20,20,1
+Carrizo,ephedra,2,8,none,0,221,0
+Carrizo,ephedra,2,8,squirrel,6,6,1
+Carrizo,ephedra,2,8,unknown,1,1,1
+Carrizo,ephedra,2,9,kangaroo rat,62,62,1
+Carrizo,ephedra,2,9,none,0,594,0
+Carrizo,ephedra,2,9,squirrel,6,6,1
+Carrizo,ephedra,2,10,kangaroo rat,14,14,1
+Carrizo,ephedra,2,10,none,0,2099,0
+Carrizo,ephedra,2,10,rabbit,1,1,1
+Carrizo,ephedra,2,10,squirrel,1,1,1
+Carrizo,ephedra,2,10,unknown,1,1,1
+Carrizo,ephedra,3,1,kangaroo rat,24,24,1
+Carrizo,ephedra,3,1,none,0,6503,0
+Carrizo,ephedra,3,2,kangaroo rat,78,78,1
+Carrizo,ephedra,3,2,none,0,8974,0
+Carrizo,ephedra,3,2,rabbit,13,13,1
+Carrizo,ephedra,3,2,squirrel,160,160,1
+Carrizo,ephedra,3,2,unknown,4,4,1
+Carrizo,ephedra,3,3,kangaroo rat,52,52,1
+Carrizo,ephedra,3,3,none,0,4571,0
+Carrizo,ephedra,3,3,squirrel,4,4,1
+Carrizo,ephedra,3,4,kangaroo rat,49,49,1
+Carrizo,ephedra,3,4,kit fox,2,2,1
+Carrizo,ephedra,3,4,none,0,5961,0
+Carrizo,ephedra,3,5,bird,2,2,1
+Carrizo,ephedra,3,5,kangaroo rat,44,44,1
+Carrizo,ephedra,3,5,none,0,2925,0
+Carrizo,ephedra,3,5,squirrel,10,10,1
+Carrizo,ephedra,3,6,kangaroo rat,79,79,1
+Carrizo,ephedra,3,6,none,0,7000,0
+Carrizo,ephedra,3,6,squirrel,1,1,1
+Carrizo,ephedra,3,6,unknown,1,1,1
+Carrizo,ephedra,3,7,bird,2,2,1
+Carrizo,ephedra,3,7,kangaroo rat,22,22,1
+Carrizo,ephedra,3,7,none,0,3463,0
+Carrizo,ephedra,3,7,rabbit,1,1,1
+Carrizo,ephedra,3,8,kangaroo rat,16,16,1
+Carrizo,ephedra,3,8,none,0,4875,0
+Carrizo,ephedra,3,9,kangaroo rat,7,7,1
+Carrizo,ephedra,3,9,none,0,4309,0
+Carrizo,ephedra,NA,10,none,0,1,0
+Carrizo,open,1,1,kangaroo rat,24,24,1
+Carrizo,open,1,1,none,0,2124,0
+Carrizo,open,1,1,squirrel,15,15,1
+Carrizo,open,1,2,kangaroo rat,3,3,1
+Carrizo,open,1,2,none,0,8591,0
+Carrizo,open,1,2,squirrel,1,1,1
+Carrizo,open,1,3,kangaroo rat,129,129,1
+Carrizo,open,1,3,none,1,471,0.0021231422505307855
+Carrizo,open,1,3,rabbit,1,1,1
+Carrizo,open,1,3,rat,0,3,0
+Carrizo,open,1,4,kangaroo rat,12,12,1
+Carrizo,open,1,4,none,0,172,0
+Carrizo,open,1,4,rabbit,21,21,1
+Carrizo,open,1,4,squirrel,5,5,1
+Carrizo,open,1,5,kangaroo rat,172,172,1
+Carrizo,open,1,5,none,0,1569,0
+Carrizo,open,1,6,kangaroo rat,35,35,1
+Carrizo,open,1,6,none,0,61,0
+Carrizo,open,1,6,rabbit,5,5,1
+Carrizo,open,1,6,squirrel,1,1,1
+Carrizo,open,1,7,california thrasher,4,4,1
+Carrizo,open,1,7,kangaroo rat,204,204,1
+Carrizo,open,1,7,none,0,498,0
+Carrizo,open,1,7,rabbit,7,7,1
+Carrizo,open,1,7,squirrel,3,3,1
+Carrizo,open,1,8,kangaroo rat,9,9,1
+Carrizo,open,1,8,none,0,3515,0
+Carrizo,open,1,8,rabbit,4,4,1
+Carrizo,open,1,9,kangaroo rat,15,15,1
+Carrizo,open,1,9,none,0,760,0
+Carrizo,open,1,9,rabbit,2,2,1
+Carrizo,open,1,9,squirrel,2,2,1
+Carrizo,open,1,9,unknown,1,1,1
+Carrizo,open,1,10,kangaroo rat,24,24,1
+Carrizo,open,1,10,none,0,83,0
+Carrizo,open,1,10,rabbit,3,3,1
+Carrizo,open,2,1,kangaroo rat,14,14,1
+Carrizo,open,2,1,kit fox,1,1,1
+Carrizo,open,2,1,none,0,114,0
+Carrizo,open,2,1,rabbit,3,3,1
+Carrizo,open,2,1,squirrel,2,2,1
+Carrizo,open,2,2,kangaroo rat,5,5,1
+Carrizo,open,2,2,none,0,3975,0
+Carrizo,open,2,2,rabbit,1,1,1
+Carrizo,open,2,2,squirrel,2,2,1
+Carrizo,open,2,3,none,0,2500,0
+Carrizo,open,2,4,kangaroo rat,13,13,1
+Carrizo,open,2,4,none,0,59,0
+Carrizo,open,2,4,rabbit,2,2,1
+Carrizo,open,2,4,rat,1,1,1
+Carrizo,open,2,5,kangaroo rat,3,3,1
+Carrizo,open,2,5,none,0,80,0
+Carrizo,open,2,5,squirrel,1,1,1
+Carrizo,open,2,5,unknown,1,1,1
+Carrizo,open,2,6,kangaroo rat,8,8,1
+Carrizo,open,2,6,kit fox,5,5,1
+Carrizo,open,2,6,mammal,1,1,1
+Carrizo,open,2,6,none,0,60,0
+Carrizo,open,2,6,rabbit,1,1,1
+Carrizo,open,2,7,kangaroo rat,24,24,1
+Carrizo,open,2,7,none,0,1062,0
+Carrizo,open,2,7,squirrel,1,1,1
+Carrizo,open,2,8,none,0,872,0
+Carrizo,open,2,9,kangaroo rat,104,104,1
+Carrizo,open,2,9,none,0,6741,0
+Carrizo,open,2,9,squirrel,1,1,1
+Carrizo,open,2,10,bird,1,1,1
+Carrizo,open,2,10,none,0,60,0
+Carrizo,open,2,10,rabbit,12,12,1
+Carrizo,open,3,2,kangaroo rat,5,5,1
+Carrizo,open,3,2,none,0,846,0
+Carrizo,open,3,2,rabbit,26,26,1
+Carrizo,open,3,3,none,0,14810,0
+Carrizo,open,3,4,kangaroo rat,1,1,1
+Carrizo,open,3,4,none,0,2655,0
+Carrizo,open,3,4,rabbit,1,1,1
+Carrizo,open,3,5,none,0,20,0
+Carrizo,open,3,6,kit fox,2,2,1
+Carrizo,open,3,6,none,0,520,0
+Carrizo,open,3,7,none,0,6001,0
+Carrizo,open,3,7,rabbit,2,2,1
+Carrizo,open,3,8,kangaroo rat,81,81,1
+Carrizo,open,3,8,none,0,592,0
+Carrizo,open,3,8,rabbit,10,10,1
+Carrizo,open,3,8,squirrel,9,9,1
+Carrizo,open,3,9,none,0,6,0
+Carrizo,open,3,10,none,0,425,0
+Carrizo,open,3,10,rabbit,1,1,1
+Carrizo,open,3,NA,none,0,39707,0
+Mojave,buckhorn,1,1,cottontail,18,18,1
+Mojave,buckhorn,1,1,ground squirrel,1,1,1
+Mojave,buckhorn,1,1,none,0,50,0
+Mojave,buckhorn,1,2,bird,1,1,1
+Mojave,buckhorn,1,2,cottontail,3,3,1
+Mojave,buckhorn,1,2,kit fox,1,1,1
+Mojave,buckhorn,1,2,none,0,38,0
+Mojave,buckhorn,1,3,bird,1,1,1
+Mojave,buckhorn,1,3,cottontail,60,60,1
+Mojave,buckhorn,1,3,ground squirrel,12,12,1
+Mojave,buckhorn,1,3,none,1,98,0.01020408163265306
+Mojave,buckhorn,1,4,bird,1,1,1
+Mojave,buckhorn,1,4,cottontail,7,7,1
+Mojave,buckhorn,1,4,ground squirrel,5,5,1
+Mojave,buckhorn,1,4,none,0,41,0
+Mojave,buckhorn,1,5,bird,4,4,1
+Mojave,buckhorn,1,5,cottontail,3,3,1
+Mojave,buckhorn,1,5,mouse,3,3,1
+Mojave,buckhorn,1,5,none,0,2436,0
+Mojave,buckhorn,1,6,cottontail,39,39,1
+Mojave,buckhorn,1,6,ground squirrel,1,1,1
+Mojave,buckhorn,1,6,mouse,5,5,1
+Mojave,buckhorn,1,6,none,0,2167,0
+Mojave,buckhorn,1,6,rat,2,2,1
+Mojave,buckhorn,1,7,cottontail,4,4,1
+Mojave,buckhorn,1,7,ground squirrel,1,1,1
+Mojave,buckhorn,1,7,mouse,1,1,1
+Mojave,buckhorn,1,7,none,0,48,0
+Mojave,buckhorn,1,8,cottontail,6,6,1
+Mojave,buckhorn,1,8,ground squirrel,2,2,1
+Mojave,buckhorn,1,8,none,0,21,0
+Mojave,buckhorn,2,1,bird,1,1,1
+Mojave,buckhorn,2,1,cottontail,11,11,1
+Mojave,buckhorn,2,1,lizard,1,1,1
+Mojave,buckhorn,2,1,none,0,811,0
+Mojave,buckhorn,2,1,unknown,1,1,1
+Mojave,buckhorn,2,10,bird,2,2,1
+Mojave,buckhorn,2,10,cottontail,16,16,1
+Mojave,buckhorn,2,10,kit fox,2,2,1
+Mojave,buckhorn,2,10,mouse,1,1,1
+Mojave,buckhorn,2,10,none,0,190,0
+Mojave,buckhorn,2,10,unknown,2,2,1
+Mojave,buckhorn,2,15,cottontail,11,11,1
+Mojave,buckhorn,2,15,none,0,104,0
+Mojave,buckhorn,2,15,unknown,1,1,1
+Mojave,buckhorn,2,16,cottontail,1,1,1
+Mojave,buckhorn,2,16,none,0,173,0
+Mojave,buckhorn,2,25,bird,3,3,1
+Mojave,buckhorn,2,25,cottontail,31,31,1
+Mojave,buckhorn,2,25,ground squirrel,5,5,1
+Mojave,buckhorn,2,25,jackrabbit,3,3,1
+Mojave,buckhorn,2,25,kangaroo rat,3,3,1
+Mojave,buckhorn,2,25,none,1,83,0.012048192771084338
+Mojave,buckhorn,2,25,unknown,6,6,1
+Mojave,buckhorn,2,27,cottontail,6,6,1
+Mojave,buckhorn,2,27,ground squirrel,6,6,1
+Mojave,buckhorn,2,27,jackrabbit,2,2,1
+Mojave,buckhorn,2,27,none,NA,335,NA
+Mojave,buckhorn,2,27,unknown,6,6,1
+Mojave,buckhorn,2,28,jackrabbit,4,4,1
+Mojave,buckhorn,2,28,none,0,58,0
+Mojave,buckhorn,2,32,cottontail,40,40,1
+Mojave,buckhorn,2,32,none,0,678,0
+Mojave,buckhorn,2,32,unknown,2,2,1
+Mojave,buckhorn,3,1,bird,1,1,1
+Mojave,buckhorn,3,1,bobcat,1,1,1
+Mojave,buckhorn,3,1,cottontail,28,29,0.9655172413793104
+Mojave,buckhorn,3,1,jackrabbit,0,4,0
+Mojave,buckhorn,3,1,kit fox,0,1,0
+Mojave,buckhorn,3,1,none,0,3772,0
+Mojave,buckhorn,3,1,unknown,6,8,0.75
+Mojave,buckhorn,3,15,butterfly,2,2,1
+Mojave,buckhorn,3,15,cottontail,28,28,1
+Mojave,buckhorn,3,15,ground squirrel,2,2,1
+Mojave,buckhorn,3,15,jackrabbit,14,14,1
+Mojave,buckhorn,3,15,kit fox,1,1,1
+Mojave,buckhorn,3,15,none,NA,3675,NA
+Mojave,buckhorn,3,15,unknown,3,3,1
+Mojave,buckhorn,3,16,cottontail,6,6,1
+Mojave,buckhorn,3,16,ground squirrel,12,12,1
+Mojave,buckhorn,3,16,jackrabbit,2,2,1
+Mojave,buckhorn,3,16,kangaroo rat,3,3,1
+Mojave,buckhorn,3,16,none,0,2984,0
+Mojave,buckhorn,3,25,jackrabbit,4,4,1
+Mojave,buckhorn,3,25,none,0,3617,0
+Mojave,buckhorn,3,25,unknown,19,19,1
+Mojave,buckhorn,3,27,bird,4,4,1
+Mojave,buckhorn,3,27,cottontail,29,29,1
+Mojave,buckhorn,3,27,ground squirrel,3,3,1
+Mojave,buckhorn,3,27,kangaroo rat,3,3,1
+Mojave,buckhorn,3,27,lizard,2,2,1
+Mojave,buckhorn,3,27,none,0,3452,0
+Mojave,buckhorn,3,28,bird,4,4,1
+Mojave,buckhorn,3,28,cottontail,65,65,1
+Mojave,buckhorn,3,28,ground squirrel,7,7,1
+Mojave,buckhorn,3,28,jackrabbit,2,2,1
+Mojave,buckhorn,3,28,kangaroo rat,2,2,1
+Mojave,buckhorn,3,28,lizard,1,1,1
+Mojave,buckhorn,3,28,none,0,3459,0
+Mojave,buckhorn,3,28,unknown,3,3,1
+Mojave,buckhorn,3,32,none,0,3,0
+Mojave,larrea,1,2,bird,1,1,1
+Mojave,larrea,1,2,cottontail,3,3,1
+Mojave,larrea,1,2,jackrabbit,5,5,1
+Mojave,larrea,1,2,kangaroo rat,9,9,1
+Mojave,larrea,1,2,none,0,3473,0
+Mojave,larrea,1,2,unknown,3,3,1
+Mojave,larrea,1,4,bird,2,2,1
+Mojave,larrea,1,4,cottontail,4,4,1
+Mojave,larrea,1,4,kangaroo rat,44,44,1
+Mojave,larrea,1,4,lizard,1,1,1
+Mojave,larrea,1,4,none,0,251,0
+Mojave,larrea,1,4,unknown,4,4,1
+Mojave,larrea,1,5,bird,1,1,1
+Mojave,larrea,1,5,chipmunk,2,2,1
+Mojave,larrea,1,5,cottontail,6,6,1
+Mojave,larrea,1,5,jackrabbit,2,2,1
+Mojave,larrea,1,5,kangaroo rat,10,10,1
+Mojave,larrea,1,5,lizard,3,3,1
+Mojave,larrea,1,5,none,0,127,0
+Mojave,larrea,1,5,rabbit,1,1,1
+Mojave,larrea,1,5,unknown,8,8,1
+Mojave,larrea,1,10,cottontail,4,4,1
+Mojave,larrea,1,10,jackrabbit,5,5,1
+Mojave,larrea,1,10,none,0,4345,0
+Mojave,larrea,1,10,unknown,1,1,1
+Mojave,larrea,1,13,none,0,4368,0
+Mojave,larrea,1,14,bird,1,1,1
+Mojave,larrea,1,14,chipmunk,1,1,1
+Mojave,larrea,1,14,cottontail,5,5,1
+Mojave,larrea,1,14,jackrabbit,3,3,1
+Mojave,larrea,1,14,kangaroo rat,25,25,1
+Mojave,larrea,1,14,lizard,1,1,1
+Mojave,larrea,1,14,none,0,2011,0
+Mojave,larrea,1,14,unknown,11,11,1
+Mojave,larrea,1,15,bird,1,1,1
+Mojave,larrea,1,15,chipmunk,4,4,1
+Mojave,larrea,1,15,cottontail,9,9,1
+Mojave,larrea,1,15,jackrabbit,37,37,1
+Mojave,larrea,1,15,none,0,362,0
+Mojave,larrea,1,15,unknown,23,23,1
+Mojave,larrea,1,16,cottontail,4,4,1
+Mojave,larrea,1,16,jackrabbit,3,3,1
+Mojave,larrea,1,16,kangaroo rat,10,10,1
+Mojave,larrea,1,16,none,0,670,0
+Mojave,larrea,1,16,unknown,7,7,1
+Mojave,larrea,2,2,bird,2,2,1
+Mojave,larrea,2,2,cottontail,10,11,0.9090909090909091
+Mojave,larrea,2,2,jackrabbit,3,3,1
+Mojave,larrea,2,2,kangaroo rat,5,5,1
+Mojave,larrea,2,2,none,0,2121,0
+Mojave,larrea,2,2,unknown,4,5,0.8
+Mojave,larrea,2,4,cottontail,13,13,1
+Mojave,larrea,2,4,jackrabbit,1,1,1
+Mojave,larrea,2,4,kangaroo rat,10,10,1
+Mojave,larrea,2,4,lizard,2,2,1
+Mojave,larrea,2,4,none,0,1640,0
+Mojave,larrea,2,4,unknown,8,8,1
+Mojave,larrea,2,5,cottontail,3,3,1
+Mojave,larrea,2,5,jackrabbit,8,8,1
+Mojave,larrea,2,5,kangaroo rat,11,11,1
+Mojave,larrea,2,5,lizard,2,2,1
+Mojave,larrea,2,5,none,0,4259,0
+Mojave,larrea,2,5,unknown,6,6,1
+Mojave,larrea,2,10,cottontail,16,16,1
+Mojave,larrea,2,10,jackrabbit,13,13,1
+Mojave,larrea,2,10,kangaroo rat,17,17,1
+Mojave,larrea,2,10,lizard,2,2,1
+Mojave,larrea,2,10,none,0,2009,0
+Mojave,larrea,2,10,unknown,1,1,1
+Mojave,larrea,2,13,cottontail,15,15,1
+Mojave,larrea,2,13,jackrabbit,1,1,1
+Mojave,larrea,2,13,kangaroo rat,6,6,1
+Mojave,larrea,2,13,lizard,1,1,1
+Mojave,larrea,2,13,none,0,5541,0
+Mojave,larrea,2,13,unknown,6,6,1
+Mojave,larrea,2,14,chipmunk,1,1,1
+Mojave,larrea,2,14,cottontail,5,5,1
+Mojave,larrea,2,14,kangaroo rat,5,5,1
+Mojave,larrea,2,14,none,0,3037,0
+Mojave,larrea,2,14,unknown,2,2,1
+Mojave,larrea,2,15,bird,3,3,1
+Mojave,larrea,2,15,cottontail,9,9,1
+Mojave,larrea,2,15,jackrabbit,5,5,1
+Mojave,larrea,2,15,kangaroo rat,18,18,1
+Mojave,larrea,2,15,lizard,1,1,1
+Mojave,larrea,2,15,none,0,5323,0
+Mojave,larrea,2,15,unknown,11,11,1
+Mojave,larrea,2,16,cottontail,4,4,1
+Mojave,larrea,2,16,jackrabbit,5,5,1
+Mojave,larrea,2,16,none,0,1239,0
+Mojave,larrea,2,16,unknown,6,6,1
+Mojave,larrea,3,2,bird,4,4,1
+Mojave,larrea,3,2,cat,4,4,1
+Mojave,larrea,3,2,cottontail,12,12,1
+Mojave,larrea,3,2,jackrabbit,12,12,1
+Mojave,larrea,3,2,kangaroo rat,10,10,1
+Mojave,larrea,3,2,none,0,8019,0
+Mojave,larrea,3,2,unknown,2,2,1
+Mojave,larrea,3,4,cottontail,45,45,1
+Mojave,larrea,3,4,mouse,5,5,1
+Mojave,larrea,3,4,none,0,945,0
+Mojave,larrea,3,4,rat,1,1,1
+Mojave,larrea,3,4,unknown,4,4,1
+Mojave,larrea,3,5,cottontail,10,10,1
+Mojave,larrea,3,5,ground squirrel,3,3,1
+Mojave,larrea,3,5,jackrabbit,3,3,1
+Mojave,larrea,3,5,kangaroo rat,5,5,1
+Mojave,larrea,3,5,lizard,1,1,1
+Mojave,larrea,3,5,none,0,3801,0
+Mojave,larrea,3,10,bird,1,1,1
+Mojave,larrea,3,10,none,0,5733,0
+Mojave,larrea,3,13,none,0,593,0
+Mojave,larrea,3,14,butterfly,17,17,1
+Mojave,larrea,3,14,cottontail,3,3,1
+Mojave,larrea,3,14,ground squirrel,2,2,1
+Mojave,larrea,3,14,jackrabbit,2,2,1
+Mojave,larrea,3,14,lizard,2,2,1
+Mojave,larrea,3,14,none,0,7880,0
+Mojave,larrea,3,14,unknown,115,115,1
+Mojave,larrea,3,15,jackrabbit,9,9,1
+Mojave,larrea,3,15,none,NA,1077,NA
+Mojave,larrea,3,16,cottontail,13,13,1
+Mojave,larrea,3,16,kangaroo rat,1,1,1
+Mojave,larrea,3,16,none,0,3860,0
+Mojave,larrea,3,16,unknown,13,13,1
+Mojave,larrea,3,NA,none,0,1,0
